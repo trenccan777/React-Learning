@@ -1,12 +1,15 @@
-import  React from 'react'
-import Header from './components/Header'
-
-export  default function App() {
+//This needs to be imported everywhere because of JSX
+import React from "react";
+import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import MainContent from "./components/MainContent";
+export default function App() {
   return (
     <div>
-    <Header/>
-    <h1>Toto je nadpis2</h1>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
-  )
+  );
 }
-
