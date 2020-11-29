@@ -7,3 +7,15 @@ footer {
 main {
     padding: 1em;
 }
+
+.paragraph {
+    font-size: 1.2em;
+}
+
+.todos {
+    padding: 1em;
+    margin:  2em auto;
+    width: 250px;
+    background-color: cadetblue;
+    color: white;
+}

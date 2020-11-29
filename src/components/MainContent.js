@@ -7,11 +7,11 @@ export default function MainContent() {
     //javascript variable inside JSX can be use with curly braces {}
     <main>
       <p>My name is {name}.</p>
-    {/*CSS inline style*/}
-      <p>I have been <span style={{color: 'red', fontWeight:'700'}}>30</span> years old.</p>
+    {/*CSS inline style or className*/}
+      <p className='paragraph'>I have been <span style={{color: 'red', fontWeight:'700'}}>30</span> years old.</p>
       <p style={paragraphStyle}>I'm learning React inline styling with variable inside component.</p>
       {/* Props */}
-      <Card cardinfo="This is car info is passed as a props"/>
+      <Card  cardinfo="This is car info is passed as a props"/>
     </main>
   );
 }
